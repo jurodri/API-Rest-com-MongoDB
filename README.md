@@ -13,7 +13,7 @@ Este endpoint é responsável por retornar a listagem de todas os pratos cadastr
 Nenhum.
 
 #### Respostas:
-OK! (código 200)  
+#### OK! (código 200)  
 Caso seja retornada esta resposta, você receberá a listagem de todos os pratos de comida japonesa cadastrados na API.
 
 #### Exemplo de resposta:
@@ -62,8 +62,8 @@ descriptions: Descrições adicionais sobre o prato, mais especificamente seus i
 "descriptions": [{"ingredients": "peixe, arroz, e outros ingredientes"}]
 }
 ```
-Respostas:
-Criado! (código 201)  
+#### Respostas:
+#### Criado! (código 201)  
 Caso essa resposta seja retornada, o novo prato foi criado e armazenado no banco com sucesso.  
 
 #### Exemplo de resposta: 
@@ -85,7 +85,7 @@ Esse endpoint é o responsável por deletar um prato específico, usando seu ID.
 id: ID do prato a ser deletado.
 
 #### Respostas:
-Sem Conteúdo! (código 204)  
+####Sem Conteúdo! (código 204)  
 Caso essa resposta retorne ao usuário, o prato terá sido deletado do banco de dados com sucesso e não há mais conteúdo para retornar.  
 
 #### Exemplo de resposta: 
@@ -127,7 +127,7 @@ descriptions: Descrições adicionais sobre o prato, mais especificamente seus i
 }
 ```
 #### Respostas:
-OK! (código 200)  
+#### OK! (código 200)  
 Caso essa resposta retorne ao usuário, as informações do prato foram atualizadas com sucesso.  
 
 #### Exemplo de resposta:
@@ -163,7 +163,7 @@ Esse endpoint é o responsável por retornar informações de um prato específi
 id: ID do prato que será consultado.
 
 #### Respostas:
-OK! (código 200)  
+#### OK! (código 200)  
 Caso essa resposta aconteça, você vai receber todas as informações do prato solicitado.  
 
 #### Exemplo de resposta:
