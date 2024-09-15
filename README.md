@@ -109,7 +109,7 @@ Caso essa resposta retorne ao usuário, ocorreu um erro interno no servidor.
     "error": "Erro interno do servidor!"
 }
 ```
-#### - PUT /food/:id
+### - PUT /food/:id
 Esse endpoint é o responsável por atualizar as informações de um prato específico pelo ID dele.
 
 #### Parâmetros:
