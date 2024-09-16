@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connect = () => {
   mongoose.connect(
-    `mongodb+srv://caiobronesmor:admin@japafood.t5awr.mongodb.net/japafood?retryWrites=true&w=majority&appName=japafood`
+    `mongodb+srv://caiomoraesace:admin@cluster0.eal3r.mongodb.net/japafood?retryWrites=true&w=majority&appName=Cluster0`
   );
 };
 
