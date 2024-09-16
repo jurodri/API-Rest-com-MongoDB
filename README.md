@@ -85,7 +85,7 @@ Esse endpoint é o responsável por deletar um prato específico, usando seu ID.
 id: ID do prato a ser deletado.
 
 #### Respostas:
-####Sem Conteúdo! (código 204)  
+#### Sem Conteúdo! (código 204)  
 Caso essa resposta retorne ao usuário, o prato terá sido deletado do banco de dados com sucesso e não há mais conteúdo para retornar.  
 
 #### Exemplo de resposta: 
