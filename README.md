@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ### API JapaFoods  
-Esta API é utilizada para gerenciar um catálogo que contém diferentes pratos de comida de origem japonesa, permitindo operações de visualização, cadastro e consulta do catálogo de pratos de origem japonesa.
+Esta API é utilizada para gerenciar um catálogo que contém diferentes pratos de comida de origem japonesa, permitindo operações de visualização, cadastro e consulta do catálogo de pratos desta origem.
 
 ## Endpoints
 ### - GET /foods
