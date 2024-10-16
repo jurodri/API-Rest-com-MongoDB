@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 //const connect = () => {
 //  mongoose.connect(
-  //  `mongodb://localhost:27017/japafood`, // Conectando ao MongoDB local
+  //  `mongodb://localhost:4000/japafood`, // Conectando ao MongoDB local
    // { useNewUrlParser: true, useUnifiedTopology: true } // Configurações recomendadas
  // );
 // };
