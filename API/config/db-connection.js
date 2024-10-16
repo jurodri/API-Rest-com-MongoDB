@@ -1,11 +1,10 @@
 import mongoose from "mongoose";
 
 //const connect = () => {
-//  mongoose.connect(
-  //  `mongodb://localhost:4000/japafood`, // Conectando ao MongoDB local
-   // { useNewUrlParser: true, useUnifiedTopology: true } // Configurações recomendadas
- // );
-// };
+  //mongoose.connect("mongodb://127.0.0.1:27017/japafood", // Conectando ao MongoDB local
+    //{ useNewUrlParser: true, useUnifiedTopology: true }
+  //);
+//};
 
 const connect = () => {
   mongoose.connect(
