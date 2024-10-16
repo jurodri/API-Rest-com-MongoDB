@@ -1,5 +1,12 @@
 import mongoose from "mongoose";
 
+//const connect = () => {
+//  mongoose.connect(
+  //  `mongodb://localhost:27017/japafood`, // Conectando ao MongoDB local
+   // { useNewUrlParser: true, useUnifiedTopology: true } // Configurações recomendadas
+ // );
+// };
+
 const connect = () => {
   mongoose.connect(
     `mongodb+srv://caiomoraesace:admin@cluster0.eal3r.mongodb.net/japafood?retryWrites=true&w=majority&appName=Cluster0`
