@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+typedef struct Livro{
+  char titulo[30];
+  int ano_de_edicao;
+  int nro_paginas;
+  float preco;
+}L;
+ 
+ 
+int main() {
+   L livros[5];
+   int i=0, total_paginas=0;
+   double media_paginas;
+   for(i=0;i<5;i++) {
+      printf("Informe o titulo: ") ;
+      scanf("%s", &livros[i].titulo);
+      printf("Informe o ano de edicao: ");
+      scanf("%d", &livros[i].ano_de_edicao);
+      printf("Informe o numero de paginas: "); 
+      scanf("%d", &livros[i].nro_paginas);
+      printf("Informe o preco: "); 
+      scanf("%f", &livros[i].preco);
+      total_paginas += livros[i].nro_paginas;
+   }
+    media_paginas = total_paginas/5;
+    printf("Media das paginas: %lf",media_paginas);
+
+    return 0;
+}
