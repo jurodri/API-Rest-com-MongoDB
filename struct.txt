@@ -51,9 +51,6 @@ int main() {
     H hortalicas[2];  // Array para armazenar duas hortaliças
     float soma_precos, diferenca_precos, multiplicacao_precos, divisao_precos;
 
-    printf("Hoje vamos registrar as informações sobre duas hortaliças colhidas na fazenda.\n");
-
-    // Loop para entrada de dados das duas hortaliças
     for (int i = 0; i < 2; i++) {
         printf("\nInforme o nome da hortaliça %d: ", i + 1);
         scanf("%s", hortalicas[i].nome);
@@ -79,7 +76,7 @@ int main() {
     printf("A soma dos preços das hortaliças é: %.2f\n", soma_precos);
     printf("A diferença entre os preços das hortaliças é: %.2f\n", diferenca_precos);
     printf("A multiplicação dos preços das hortaliças é: %.2f\n", multiplicacao_precos);
-    printf("A divisão do preço da hortaliça %s pelo preço da hortaliça %s é: %.2f\n", divisao_precos);
+    printf("A divisão da hortaliça é: %.2f\n", divisao_precos);
 
     return 0;
 }
