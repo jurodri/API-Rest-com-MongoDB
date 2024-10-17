@@ -29,3 +29,57 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Hortaliça {
+    char nome[30];
+    int ano_colheita;
+    int quantidade;  // Quantidade de unidades colhidas
+    float preco;     // Preço por unidade
+} H;
+
+int main() {
+    H hortaliça;
+    int total_quantidade = 0;
+    double soma_precos, multiplicacao_precos, divisao_precos;
+    
+    printf("Hoje vamos registrar as informações sobre uma hortaliça colhida na fazenda.\n");
+
+    // Entrada de dados para a hortaliça
+    printf("Informe o nome da hortaliça: ");
+    scanf("%s", hortaliça.nome);
+
+    printf("Informe o ano da colheita: ");
+    scanf("%d", &hortaliça.ano_colheita);
+
+    printf("Informe a quantidade colhida: ");
+    scanf("%d", &hortaliça.quantidade);
+
+    printf("Informe o preco por unidade: ");
+    scanf("%f", &hortaliça.preco);
+
+    total_quantidade += hortaliça.quantidade;  // Soma a quantidade colhida
+
+    // Operações matemáticas básicas com o preço
+    soma_precos = hortaliça.preco + hortaliça.preco;  // Soma o preço com ele mesmo
+    multiplicacao_precos = hortaliça.preco * 2;       // Multiplica o preço por 2
+    divisao_precos = hortaliça.preco / 2;             // Divide o preço por 2
+
+    // Exibindo os resultados
+    printf("\nOperações matemáticas com o preço da hortaliça:\n");
+    printf("A soma do preço da hortaliça com ele mesmo é: %.2f\n", soma_precos);
+    printf("A multiplicação do preço da hortaliça por 2 é: %.2f\n", multiplicacao_precos);
+    printf("A divisão do preço da hortaliça por 2 é: %.2f\n", divisao_precos);
+
+    return 0;
+}
